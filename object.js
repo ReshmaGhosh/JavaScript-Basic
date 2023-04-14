@@ -9,3 +9,9 @@ const student = {
   age: 12,
 };
 // console.log the student name, class and age
+
+console.log(student.name);
+console.log(student.class);
+console.log(student.age);
+
+

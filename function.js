@@ -9,3 +9,71 @@
 
 // Arrow Function
 // convert those function above to arrow function
+
+function greeting(){
+
+    console.log("Hello");
+}
+greeting();
+
+
+
+
+function greeting(name) {
+    console.log(`hi ${name}`);
+}
+greeting("Reshma");
+
+
+
+
+function additon(a, b){
+   let result = a+b ;
+    return(result);
+}
+sum = console.log(`Sum is ${additon(12,13)}`);
+
+
+
+
+function dubbleValue(num1, num2){
+
+   let result = num1*num2 ;
+    return (result);
+}
+Result = console.log(`The value is ${dubbleValue(10, 20)}`);
+
+// Arrow Function
+
+const greeting1 = () =>{
+    console.log("Hello");
+}
+greeting1();
+
+
+const greeting2 = (name) => {
+    console.log(`Hello ${name}`);
+}
+greeting("Reshma Ghosh");
+
+
+const additon1 = (a, b) => {
+    let result = a+b ;
+     return(result);
+ }
+ sum = console.log(`Sum is ${additon(12,13)}`);
+
+
+
+ const dubbleValue1 = (num1, num2) => {
+
+    let result = num1*num2 ;
+     return (result);
+ }
+ Result = console.log(`The value is ${dubbleValue(10, 20)}`);
+ 
+
+
+
+
+
