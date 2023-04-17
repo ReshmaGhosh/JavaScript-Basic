@@ -10,70 +10,50 @@
 // Arrow Function
 // convert those function above to arrow function
 
-function greeting(){
-
-    console.log("Hello");
+function greetingToYou() {
+  console.log("Hello");
 }
-greeting();
+greetingToYou();
 
-
-
-
-function greeting(name) {
-    console.log(`hi ${name}`);
+function greetings(name) {
+  console.log(`hi ${name}`);
 }
-greeting("Reshma");
+greetings("Reshma");
 
-
-
-
-function additon(a, b){
-   let result = a+b ;
-    return(result);
+function additon(a, b) {
+  let result = a + b;
+  return result;
 }
-sum = console.log(`Sum is ${additon(12,13)}`);
+console.log(`Sum is ${additon(12, 13)}`);
 
-
-
-
-function dubbleValue(num1, num2){
-
-   let result = num1*num2 ;
-    return (result);
+function dubbleValue(num1, num2) {
+  let result = num1 * num2;
+  return result;
 }
 Result = console.log(`The value is ${dubbleValue(10, 20)}`);
 
 // Arrow Function
 
-const greeting1 = () =>{
-    console.log("Hello");
-}
+const greeting1 = () => {
+  console.log("Hello");
+};
 greeting1();
 
-
 const greeting2 = (name) => {
-    console.log(`Hello ${name}`);
-}
-greeting("Reshma Ghosh");
-
+  console.log(`Hello ${name}`);
+};
+greeting2("Reshma Ghosh");
 
 const additon1 = (a, b) => {
-    let result = a+b ;
-     return(result);
- }
- sum = console.log(`Sum is ${additon(12,13)}`);
+  let result = a + b;
+  return result;
+};
+console.log(`Sum is ${additon(12, 13)}`);
 
+const dubbleValue1 = (num1, num2) => {
+  return num1 * num2;
+};
+console.log(`The value is ${dubbleValue(10, 20)}`);
 
-
- const dubbleValue1 = (num1, num2) => {
-
-    let result = num1*num2 ;
-     return (result);
- }
- Result = console.log(`The value is ${dubbleValue(10, 20)}`);
- 
-
-
-
-
-
+const sumNumber = (a, b) => console.log(a + b);
+sumNumber(1, 3);

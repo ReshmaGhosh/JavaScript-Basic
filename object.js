@@ -13,5 +13,3 @@ const student = {
 console.log(student.name);
 console.log(student.class);
 console.log(student.age);
-
-

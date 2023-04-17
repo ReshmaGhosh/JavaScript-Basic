@@ -11,3 +11,17 @@
 // using string method to check which letter has index 3
 
 // using string method to get the letter has index between 1 and 3
+
+const fullName = "Reshma";
+const fullNameLength = fullName.length;
+console.log("Length of fullName: ", fullNameLength);
+
+console.log(fullName.toUpperCase());
+
+console.log(fullName.toLowerCase());
+
+console.log(fullName.slice(4));
+
+console.log(fullName[4]);
+
+console.log(fullName.slice(1, 3));
