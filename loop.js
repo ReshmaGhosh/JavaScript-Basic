@@ -12,11 +12,11 @@ for (let i = 0; i <= 100; i++) {
 }
 
 function sumOfDigits(numbers) {
-  const numString = numbers.toString();
+  const numToString = numbers.toString();
   let sum = 0;
 
-  for (let i = 0; i < numString.length; i++) {
-    sum = sum + parseInt(numString[i]);
+  for (let i = 0; i < numToString.length; i++) {
+    sum = sum + parseInt(numToString[i]);
   }
   return sum;
 }
